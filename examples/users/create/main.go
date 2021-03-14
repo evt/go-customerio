@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"go-customerio/config"
+	"github.com/evt/go-customerio/config"
 
-	"go-customerio"
+	"github.com/evt/go-customerio"
 )
 
 func main() {
