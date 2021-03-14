@@ -1,7 +1,7 @@
 ![Github CI/CD](https://img.shields.io/github/workflow/status/evt/go-customerio/Go)
 ![Go Report](https://goreportcard.com/badge/github.com/evt/go-customerio)
 ![Repository Top Language](https://img.shields.io/github/languages/top/evt/go-customerio)
-![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/evt/go-customerio/main)
+![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/evt/go-customerio/master)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/evt/go-customerio)
 ![Codacy Grade](https://img.shields.io/codacy/grade/c9467ed47e064b1981e53862d0286d65)
 ![Github Repository Size](https://img.shields.io/github/repo-size/evt/go-customerio)
@@ -18,7 +18,6 @@
 # go-customerio [![CircleCI](https://circleci.com/gh/customerio/go-customerio/tree/master.svg?style=svg)](https://circleci.com/gh/customerio/go-customerio/tree/master)
 
 A golang client for the [Customer.io](http://customer.io) [event API](https://app.customer.io/api/docs/index.html).
-_Tested with Go1.12_
 
 Godoc here: [https://godoc.org/github.com/customerio/go-customerio](https://godoc.org/github.com/customerio/go-customerio)
 
