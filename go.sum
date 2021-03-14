@@ -1,8 +1,5 @@
-github.com/customerio/go-customerio v1.2.0 h1:w/OCtsWufKy7QMP0GOZtjV1Hu4Gcnelz2AV8bXkCl9c=
 github.com/customerio/go-customerio v2.0.0+incompatible h1:7E4vuxvPwJHr3qOFHgytA441Ev0kKutk8+JCEELtyvs=
 github.com/customerio/go-customerio v2.0.0+incompatible/go.mod h1:TydbjoBN6jLzaYPplKhq/BU+mMdzyboIrFLYlkC9RVY=
-github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/kelseyhightower/envconfig v1.4.0 h1:Im6hONhd3pLkfDFsbRgu68RDNkGF1r3dvMUtDTo2cv8=
