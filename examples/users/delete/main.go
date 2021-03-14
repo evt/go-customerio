@@ -1,10 +1,10 @@
 package main
 
 import (
-	"go-customerio/examples/users/config"
+	"go-customerio/config"
 	"log"
 
-	"github.com/evt/go-customerio"
+	"go-customerio"
 )
 
 func main() {
