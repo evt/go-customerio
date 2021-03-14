@@ -22,7 +22,7 @@
 
 A golang client for the [Customer.io](http://customer.io) [event API](https://app.customer.io/api/docs/index.html).
 
-Godoc here: [https://godoc.org/github.com/customerio/go-customerio](https://godoc.org/github.com/customerio/go-customerio)
+Godoc here: [https://godoc.org/github.com/evt/go-customerio](https://godoc.org/github.com/evt/go-customerio)
 
 ## Installation
 
@@ -31,7 +31,7 @@ Add this line to your application's imports:
 ```go
 import (
     // ...
-    "github.com/customerio/go-customerio"
+    "github.com/evt/go-customerio"
 )
 ```
 
@@ -41,7 +41,7 @@ And then execute:
 
 Or install it yourself:
 
-    $ go get "github.com/customerio/go-customerio"
+    $ go get "github.com/evt/go-customerio"
 
 ## Usage
 
@@ -209,7 +209,7 @@ Create a `SendEmailRequest` instance, and then use `SendEmail` to send your mess
 You can also send attachments with your message. Use `Attach` to encode attachments.
 
 ```go
-import "github.com/customerio/go-customerio"
+import "github.com/evt/go-customerio"
 
 client := customerio.NewAPIClient("<extapikey>");
 

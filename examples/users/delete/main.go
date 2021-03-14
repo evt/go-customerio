@@ -4,7 +4,7 @@ import (
 	"go-customerio/examples/users/config"
 	"log"
 
-	"github.com/customerio/go-customerio"
+	"github.com/evt/go-customerio"
 )
 
 func main() {

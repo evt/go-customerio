@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/customerio/go-customerio"
+	"github.com/evt/go-customerio"
 )
 
 func TestSendEmail(t *testing.T) {

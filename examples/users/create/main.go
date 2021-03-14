@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/customerio/go-customerio"
+	"github.com/evt/go-customerio"
 )
 
 func main() {

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/customerio/go-customerio"
+	"github.com/evt/go-customerio"
 )
 
 var cio *customerio.CustomerIO

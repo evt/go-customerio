@@ -23,7 +23,7 @@ jobs:
     docker:
       - image: circleci/golang:1.10
 
-    working_directory: /go/src/github.com/customerio/go-customerio
+    working_directory: /go/src/github.com/evt/go-customerio
     steps:
       - checkout
       - gotest:
@@ -32,7 +32,7 @@ jobs:
     docker:
       - image: circleci/golang:1.11
 
-    working_directory: /go/src/github.com/customerio/go-customerio
+    working_directory: /go/src/github.com/evt/go-customerio
     steps:
       - checkout
       - gotest:
@@ -41,7 +41,7 @@ jobs:
     docker:
       - image: circleci/golang:1.12
 
-    working_directory: /go/src/github.com/customerio/go-customerio
+    working_directory: /go/src/github.com/evt/go-customerio
     steps:
       - checkout
       - gotest:

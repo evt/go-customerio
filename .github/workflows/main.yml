@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          path: src/github.com/customerio/go-customerio
+          path: src/github.com/evt/go-customerio
       - name: setup go
         uses: actions/setup-go@v2
         with:
