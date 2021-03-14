@@ -18,6 +18,7 @@
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/ecfdce040eead77ff3397fb3b3684e8eb575eb78cd3fa7621f6e7b75b17e08cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73696d706c792d746865253230626573742532302533422532392d6f72616e6765"><img src="https://camo.githubusercontent.com/ecfdce040eead77ff3397fb3b3684e8eb575eb78cd3fa7621f6e7b75b17e08cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73696d706c792d746865253230626573742532302533422532392d6f72616e6765" alt="Simply the best ;)" data-canonical-src="https://img.shields.io/badge/simply-the%20best%20%3B%29-orange" style="max-width:100%;"></a>
 </p>
 
+<img align="right" width="50%" src="https://raw.githubusercontent.com/evt/rest-api-example/main/images/big-gopher.jpg">
 
 # go-customerio [![CircleCI](https://circleci.com/gh/customerio/go-customerio/tree/master.svg?style=svg)](https://circleci.com/gh/customerio/go-customerio/tree/master)
 
