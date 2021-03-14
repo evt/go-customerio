@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="50%" src="https://customer.io/wp-content/uploads/2019/01/customer-io-logo-color.svg">
+</p>
+
 <p style="text-align: center;">
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d344ef9d20713185fd51178803a9bb6ae3a18a61d4d2a98c4fcdfe20b15eebc1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6576742f676f2d637573746f6d6572696f2f476f"><img src="https://camo.githubusercontent.com/d344ef9d20713185fd51178803a9bb6ae3a18a61d4d2a98c4fcdfe20b15eebc1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6576742f676f2d637573746f6d6572696f2f476f" alt="Github CI/CD" data-canonical-src="https://img.shields.io/github/workflow/status/evt/go-customerio/Go" style="max-width:100%;"></a>
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4ecf7e2b687427192e545f4fe2e1b9f52c6e1067aaf2b97eea64afe62a67ee00/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6576742f676f2d637573746f6d6572696f"><img src="https://camo.githubusercontent.com/4ecf7e2b687427192e545f4fe2e1b9f52c6e1067aaf2b97eea64afe62a67ee00/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6576742f676f2d637573746f6d6572696f" alt="Go Report" data-canonical-src="https://goreportcard.com/badge/github.com/evt/go-customerio" style="max-width:100%;"></a>
@@ -14,10 +18,6 @@
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/ecfdce040eead77ff3397fb3b3684e8eb575eb78cd3fa7621f6e7b75b17e08cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73696d706c792d746865253230626573742532302533422532392d6f72616e6765"><img src="https://camo.githubusercontent.com/ecfdce040eead77ff3397fb3b3684e8eb575eb78cd3fa7621f6e7b75b17e08cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73696d706c792d746865253230626573742532302533422532392d6f72616e6765" alt="Simply the best ;)" data-canonical-src="https://img.shields.io/badge/simply-the%20best%20%3B%29-orange" style="max-width:100%;"></a>
 </p>
 
-
-<p align="center">
-  <img width="50%" src="https://customer.io/wp-content/uploads/2019/01/customer-io-logo-color.svg">
-</p>
 
 # go-customerio [![CircleCI](https://circleci.com/gh/customerio/go-customerio/tree/master.svg?style=svg)](https://circleci.com/gh/customerio/go-customerio/tree/master)
 
