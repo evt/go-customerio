@@ -19,7 +19,7 @@ type CustomerIO struct {
 	Client *http.Client
 }
 
-// CustomerIOError is returned by any method that fails at the API level
+// CustomerIOError is returned by any method that fails at the API level.
 type CustomerIOError struct {
 	status int
 	url    string
@@ -44,7 +44,7 @@ func NewTrackClient(siteID, apiKey string) *CustomerIO {
 }
 
 // NewCustomerIO prepares a client for use with the Customer.io track API, see: https://customer.io/docs/api/#apitrackintroduction
-// deprecated in favour of NewTrackClient
+// deprecated in favour of NewTrackClient.
 func NewCustomerIO(siteID, apiKey string) *CustomerIO {
 	client := &http.Client{
 		Transport: &http.Transport{
@@ -59,7 +59,7 @@ func NewCustomerIO(siteID, apiKey string) *CustomerIO {
 	}
 }
 
-// Identify identifies a customer and sets their attributes
+// Identify identifies a customer and sets their attributes.
 func (c *CustomerIO) Identify(customerID string, attributes map[string]interface{}) error {
 	if customerID == "" {
 		return ParamError{Param: "customerID"}
@@ -69,7 +69,7 @@ func (c *CustomerIO) Identify(customerID string, attributes map[string]interface
 		attributes)
 }
 
-// Track sends a single event to Customer.io for the supplied user
+// Track sends a single event to Customer.io for the supplied user.
 func (c *CustomerIO) Track(customerID string, eventName string, data map[string]interface{}) error {
 	if customerID == "" {
 		return ParamError{Param: "customerID"}
@@ -85,7 +85,7 @@ func (c *CustomerIO) Track(customerID string, eventName string, data map[string]
 		})
 }
 
-// TrackAnonymous sends a single event to Customer.io for the anonymous user
+// TrackAnonymous sends a single event to Customer.io for the anonymous user.
 func (c *CustomerIO) TrackAnonymous(eventName string, data map[string]interface{}) error {
 	if eventName == "" {
 		return ParamError{Param: "eventName"}
@@ -98,7 +98,7 @@ func (c *CustomerIO) TrackAnonymous(eventName string, data map[string]interface{
 		})
 }
 
-// Delete deletes a customer
+// Delete deletes a customer.
 func (c *CustomerIO) Delete(customerID string) error {
 	if customerID == "" {
 		return ParamError{Param: "customerID"}
@@ -108,7 +108,7 @@ func (c *CustomerIO) Delete(customerID string) error {
 		nil)
 }
 
-// AddDevice adds a device for a customer
+// AddDevice adds a device for a customer.
 func (c *CustomerIO) AddDevice(customerID string, deviceID string, platform string, data map[string]interface{}) error {
 	if customerID == "" {
 		return ParamError{Param: "customerID"}
@@ -134,7 +134,7 @@ func (c *CustomerIO) AddDevice(customerID string, deviceID string, platform stri
 		body)
 }
 
-// DeleteDevice deletes a device for a customer
+// DeleteDevice deletes a device for a customer.
 func (c *CustomerIO) DeleteDevice(customerID string, deviceID string) error {
 	if customerID == "" {
 		return ParamError{Param: "customerID"}

@@ -1,0 +1,157 @@
+linters-settings:
+  dupl:
+    threshold: 100
+  funlen:
+    lines: 100
+    statements: 60
+  goconst:
+    min-len: 2
+    min-occurrences: 2
+  gocritic:
+    enabled-tags:
+      - diagnostic
+      - experimental
+      - opinionated
+      - performance
+      - style
+    settings:
+      hugeParam:
+        sizeThreshold: 200
+  gocyclo:
+    min-complexity: 20
+  goimports:
+    local-prefixes: github.com/golangci/golangci-lint
+  golint:
+    min-confidence: 0
+  govet:
+    check-shadowing: true
+  lll:
+    line-length: 140
+  maligned:
+    suggest-new: true
+  misspell:
+    locale: US
+  nakedret:
+    max-func-lines: 0
+  nestif:
+    min-complexity: 10
+
+linters:
+  disable-all: true
+  enable:
+    - bodyclose
+    - deadcode
+    - depguard
+    - dogsled
+    - dupl
+    - errcheck
+    - funlen
+    - gochecknoglobals
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocritic
+    - gocyclo
+    - godot
+    - gofmt
+    - goimports
+    - golint
+    - gomnd
+    - gomodguard
+    - goprintffuncname
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - interfacer
+    - lll
+    - maligned
+    - misspell
+    - nakedret
+    - nestif
+    - prealloc
+    - rowserrcheck
+    - scopelint
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
+    - whitespace
+    - wsl
+    - asciicheck
+    - nolintlint
+    - exhaustive
+    - exportloopref
+    - gofumpt
+    - goheader
+    - noctx
+    - sqlclosecheck
+    # - gci # Conflicts with gofumpt
+    - nlreturn
+    - wrapcheck
+    - tparallel
+    - errorlint
+    - forbidigo
+    - makezero
+    - predeclared
+    - thelper
+    - ifshort
+    # - goerr113 # TODO: Solve errors regarding this linter
+    # - godox We heavily rely on TODO/FIXME
+    # - testpackage # Our tests design is not compatible with the requirements of this linter
+    # - paralleltest # Our tests architecture prevents from running tests in parallel
+    # - exhaustivestruct # We do not have many cases where this would be beneficial
+
+run:
+  timeout: 5m
+  build-tags:
+    - test
+
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - gomnd
+        - funlen
+        - gosec
+        - exhaustivestruct
+
+    - path: _test\.go
+      text: "G101" # Potential hardcoded credentials from gosec
+
+    - path: _test\.go
+      text: "composites" # from govet
+
+    - path: _test/\.go
+      text: "composites" # from govet
+
+    - path: _test\.go
+      linters:
+        - lll # allow longer lines
+
+    - path: migrations/
+      linters:
+        - gomnd
+
+    - path: seeder/
+      linters:
+        - gomnd
+        - forbidigo
+        - gosec
+
+    # Exclude some staticcheck messages
+    - linters:
+        - staticcheck
+      text: "SA1019:" # Deprecated stuff usage alerts
+
+    - path: tests/
+      linters:
+        - forbidigo
+
+    - path: awsdeploy/
+      linters:
+        - forbidigo

@@ -45,6 +45,7 @@ func runCases(t *testing.T, cases []testCase, do func(c testCase) error) {
 		})
 	}
 }
+
 func checkParamError(t *testing.T, err error, param string) {
 	if err == nil {
 		t.Error("expected error")

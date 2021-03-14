@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-
 	ctx := context.Background()
 
 	client := customerio.NewAPIClient("<your-key-here>")
