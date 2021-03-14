@@ -7,7 +7,6 @@
 ![Github Repository Size](https://img.shields.io/github/repo-size/evt/go-customerio)
 ![Github Open Issues](https://img.shields.io/github/issues/evt/go-customerio)
 ![Lines of code](https://img.shields.io/tokei/lines/github/evt/go-customerio)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/evt/go-customerio)
 ![GitHub last commit](https://img.shields.io/github/last-commit/evt/go-customerio)
 ![GitHub contributors](https://img.shields.io/github/contributors/evt/go-customerio)
