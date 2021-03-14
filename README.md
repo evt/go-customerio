@@ -5,6 +5,7 @@
 ![Github CI/CD](https://img.shields.io/github/workflow/status/evt/go-customerio/Go)
 ![Go Report](https://goreportcard.com/badge/github.com/evt/go-customerio)
 ![Repository Top Language](https://img.shields.io/github/languages/top/evt/go-customerio)
+![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/evt/go-customerio/master)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/evt/go-customerio)
 ![Codacy Grade](https://img.shields.io/codacy/grade/c9467ed47e064b1981e53862d0286d65)
 ![Github Repository Size](https://img.shields.io/github/repo-size/evt/go-customerio)
